@@ -1,0 +1,29 @@
+Object: Computer_chair
+
+Attributes:
+floor_interface ("casters")
+material ("mesh")
+seat_height (21)
+occupied (false)
+location ([126, -207])
+
+Methods:
+adjust_height (seat_height = 22)
+sit_down (occupied = true)
+stand_up (occupied = false)
+move_chair (location = [138, -207])
+
+
+Object: Recliner
+
+floor_interface ("feet")
+material ("cloth fabric")
+seat_height (20)
+occupied (false)
+location ([12, -71])
+
+Methods:
+adjust_height (seat_height = 20)
+sit_down (occupied = true)
+stand_up (occupied = false)
+move_chair (location = [14, -75])
