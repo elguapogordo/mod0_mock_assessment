@@ -1,0 +1,15 @@
+Class Chair
+
+Attributes:
+floor_interface (string) ("casters", "feet", "rockers")
+material (string) ("wood", "leather", "cloth fabric", "mesh")
+seat_height (integer)
+recline (boolean)
+has_armrests (boolean)
+creaky (boolean)
+
+Methods:
+adjust_height (change seat_height)
+recline_extend (change recline to true)
+recline_retract (change recline to false)
+move_chair (change chair location)
